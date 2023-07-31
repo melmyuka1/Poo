@@ -8,9 +8,9 @@ namespace Questao8
         static void Main(string[] args)
         {
             // Criar objetos de investimento com valores de entrada e taxa
-            Investimento investimento1 = new Investimento(1000, 0.03);
-            Investimento investimento2 = new Investimento(5500, 0.0248);
-            Investimento investimento3 = new Investimento(12000, 0.02);
+            Investimento investimento1 = new Investimento(1000, 0.3);
+            Investimento investimento2 = new Investimento(5500, 0.248);
+            Investimento investimento3 = new Investimento(12000, 0.2);
 
             // Tempo em anos (8 meses e 10 dias equivale a aproximadamente 8.33333333 meses)
             double tempoAnos = 8.33333333 / 12;
