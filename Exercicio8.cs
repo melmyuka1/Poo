@@ -7,15 +7,14 @@ namespace Questao8
     {
         static void Main(string[] args)
         {
-            // Criar objetos de investimento com valores de entrada e taxa
+            // cria objetos
             Investimento investimento1 = new Investimento(1000, 0.3);
             Investimento investimento2 = new Investimento(5500, 0.248);
             Investimento investimento3 = new Investimento(12000, 0.2);
 
-            // Tempo em anos (8 meses e 10 dias equivale a aproximadamente 8.33333333 meses)
             double tempoAnos = 8.33333333 / 12;
 
-            // Calcular e mostrar a tabela com resgate no 5º mês
+            // calcular e mostrar a tabela com resgate no 5º mês
             Console.WriteLine("Entrada\t\tTaxa\t\tRendimento Futuro\tRendimento até 4º mês\tResgate 5º mês");
             Console.WriteLine("---------------------------------------------------------------------------");
             Console.WriteLine(investimento1.CalcularTabelaComResgate(tempoAnos, 5));
